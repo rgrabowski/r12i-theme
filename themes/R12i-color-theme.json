@@ -1,0 +1,348 @@
+{
+	"name": "R12i",
+	"colors": {
+		"editor.background": "#22242A",
+		"editor.foreground": "#D6D6D6",
+		"editorCursor.foreground": "#E1B574",
+		"editorError.foreground": "#FF8888",
+		"editorWarning.foreground": "#FFD580",
+		"editor.selectionBackground": "#4A4D56",
+		"editor.selectionHighlightBackground": "#4A4D56AA",
+		"editor.inactiveSelectionBackground": "#4A4D5680",
+		"editor.lineHighlightBackground": "#2A2C34",
+		"editor.lineHighlightBorder": "#2A2C34",
+		"editor.wordHighlightBackground": "#4A4D56AA",
+		"editor.wordHighlightStrongBackground": "#4A4D56AA",
+		"editor.findMatchBackground": "#4A4D56",
+		"editor.findMatchHighlightBackground": "#4A4D56AA",
+		"editor.findRangeHighlightBackground": "#4A4D5680",
+		"editorBracketHighlight.foreground1": "#A6B1E1",
+		"editorBracketHighlight.foreground2": "#7ED6A7",
+		"editorBracketHighlight.foreground3": "#E1B574",
+		"editorBracketHighlight.foreground4": "#D7A8E6",
+		"editorBracketHighlight.foreground5": "#7FB7E8",
+		"editorBracketHighlight.foreground6": "#F1E9B6",
+		"editorIndentGuide.activeBackground1": "#5A5F6A",
+		"editorIndentGuide.background1": "#23252B",
+		"editorLineNumber.foreground": "#5A5F6A",
+		"activityBar.background": "#23252B",
+		"activityBar.foreground": "#E1B574",
+		"sideBar.background": "#23252B",
+		"sideBar.foreground": "#B8BDC7",
+		"statusBar.background": "#22242A",
+		"statusBar.foreground": "#B8BDC7",
+		"breadcrumb.activeSelectionForeground": "#E1B574",
+		"breadcrumb.background": "#23252B",
+		"breadcrumb.foreground": "#B8BDC7",
+		"notificationToast.border": "#23252B",
+		"notifications.border": "#23252B",
+		"panel.border": "#23252B",
+		"panelTitle.activeBorder": "#E1B574",
+		"tab.activeBackground": "#2C2F38",
+		"tab.activeBorder": "#E1B574",
+		"tab.activeForeground": "#D6D6D6",
+		"tab.border": "#23252B",
+		"terminal.background": "#22242A",
+		"terminal.border": "#23252B",
+		"titleBar.border": "#23252B"
+	},
+	"tokenColors": [
+		{
+			"scope": ["comment", "punctuation.definition.comment"],
+			"settings": { "foreground": "#6C7380", "fontStyle": "italic" }
+		},
+		{
+			"scope": ["keyword", "storage.type"],
+			"settings": { "foreground": "#D7A8E6" }
+		},
+		{
+			"name": "General variables",
+			"scope": [
+				"variable.other.readwrite",
+				"variable.other.readwrite.ruby",
+				"variable.parameter.ruby",
+				"variable.other.readwrite.class.ruby",
+				"variable.other.readwrite.global.ruby",
+				"variable.other.constant.ruby",
+				"meta.function-call.ruby variable.other.readwrite.ruby",
+				"meta.function-call.ruby variable.other.readwrite.class.ruby",
+				"meta.function-call.ruby variable.other.readwrite.global.ruby",
+				"meta.function-call.ruby variable.other.constant.ruby",
+				"meta.function-call.ruby variable.parameter.ruby"
+			],
+			"settings": { "foreground": "#E8E8E2" }
+		},
+		{
+			"name": "Instance variables",
+			"scope": [
+				"variable.other.readwrite.instance.ruby",
+				"meta.function-call.ruby variable.other.readwrite.instance.ruby"
+			],
+			"settings": { "foreground": "#e080b0" }
+		},
+		{
+			"scope": ["string", "constant.other.symbol"],
+			"settings": { "foreground": "#5ac16c" }
+		},
+		{
+			"scope": ["constant.numeric", "constant.language"],
+			"settings": { "foreground": "#A6B1E1" }
+		},
+		{
+			"name": "Function and method calls",
+			"scope": [
+				"meta.function-call.ruby",
+				"meta.function-call.ruby entity.name.function",
+				"meta.function-call.ruby entity.name.function.ruby",
+				"meta.function-call.ruby entity.name.function.call",
+				"meta.function-call.ruby entity.name.function.call.ruby",
+				"meta.function-call.ruby entity.name.method",
+				"meta.function-call.ruby entity.name.method.ruby",
+				"meta.function-call.ruby entity.name.method.call",
+				"meta.function-call.ruby entity.name.method.call.ruby",
+				"meta.function-call.ruby support.function",
+				"meta.function-call.ruby support.function.ruby",
+				"meta.function-call.ruby support.function.call",
+				"meta.function-call.ruby support.function.call.ruby"
+			],
+			"settings": { "foreground": "#7FB7E8" }
+		},
+		{
+			"scope": ["entity.name.type", "support.type"],
+			"settings": { "foreground": "#8BE9FD" }
+		},
+		{
+			"scope": [
+				"entity.name.class.ruby",
+				"entity.name.type.class.ruby",
+				"entity.other.inherited-class.ruby",
+				"meta.class"
+			],
+			"settings": { "foreground": "#FFF7B2" }
+		},
+		{
+			"scope": [
+				"entity.name.namespace.ruby",
+				"entity.name.type.module",
+				"entity.name.type.class.ruby",
+				"entity.other.inherited-class.ruby",
+				"meta.class",
+				"meta.module.ruby",
+				"support.class",
+				"entity.name.class",
+				"entity.name.class.ruby",
+				"constant.other.constant.ruby",
+				"variable.other.constant.ruby",
+				"entity.name.type.class.ruby",
+				"entity.name.type.module.ruby",
+				"support.constant.ruby"
+			],
+			"settings": { "foreground": "#FAF9F6" }
+		},
+		{
+			"scope": [
+				"punctuation.separator.namespace.ruby",
+				"punctuation.separator.inheritance.ruby",
+				"punctuation.separator.method.ruby",
+				"punctuation.separator.constant.ruby"
+			],
+			"settings": { "foreground": "#FAF9F6" }
+		},
+		{
+			"scope": ["entity.name.tag", "meta.tag"],
+			"settings": { "foreground": "#E1B574" }
+		},
+		{
+			"scope": ["markup.heading"],
+			"settings": { "foreground": "#E1B574" }
+		},
+		{
+			"scope": ["markup.bold"],
+			"settings": { "fontStyle": "bold" }
+		},
+		{
+			"scope": ["markup.italic"],
+			"settings": { "fontStyle": "italic" }
+		},
+		{
+			"scope": ["invalid", "invalid.deprecated"],
+			"settings": { "foreground": "#FFFFFF" }
+		},
+		{
+			"name": "diff: header",
+			"scope": [
+				"meta.diff",
+				"meta.diff.header",
+				"punctuation.definition.to-file.diff",
+				"punctuation.definition.from-file.diff",
+				"punctuation.definition.range.diff"
+			],
+			"settings": { "fontStyle": "italic", "foreground": "#7FB7E8" }
+		},
+		{
+			"name": "diff: deleted",
+			"scope": ["markup.deleted", "punctuation.definition.deleted.diff"],
+			"settings": { "fontStyle": "", "foreground": "#FF8888" }
+		},
+		{
+			"name": "diff: changed",
+			"scope": "markup.changed",
+			"settings": { "fontStyle": "", "foreground": "#FFD580" }
+		},
+		{
+			"name": "diff: inserted",
+			"scope": ["markup.inserted", "punctuation.definition.inserted.diff"],
+			"settings": { "foreground": "#A6B1E1" }
+		},
+		{
+			"name": "Constants and class references",
+			"scope": [
+				"constant.other.constant",
+				"constant.other.constant.ruby",
+				"variable.other.constant",
+				"variable.other.constant.ruby",
+				"meta.function-call.ruby constant.other.constant",
+				"meta.function-call.ruby constant.other.constant.ruby",
+				"meta.function-call.ruby variable.other.constant",
+				"meta.function-call.ruby variable.other.constant.ruby",
+				"meta.function-call constant.other.constant",
+				"meta.function-call constant.other.constant.ruby",
+				"meta.function-call variable.other.constant",
+				"meta.function-call variable.other.constant.ruby",
+				"meta.function-call.ruby entity.name.class",
+				"meta.function-call.ruby entity.name.class.ruby",
+				"meta.function-call.ruby entity.name.type.class",
+				"meta.function-call.ruby entity.name.type.class.ruby",
+				"meta.function-call.ruby entity.other.inherited-class.ruby",
+				"meta.function-call.ruby meta.class",
+				"meta.function-call.ruby meta.class.ruby",
+				"meta.function-call.ruby support.class",
+				"meta.function-call.ruby support.class.ruby",
+				"meta.function-call.ruby entity.name.type.module",
+				"meta.function-call.ruby entity.name.type.module.ruby",
+				"meta.function-call.ruby entity.name.namespace.ruby",
+				"meta.function-call.ruby meta.module.ruby",
+				"meta.function-call.ruby support.module.ruby",
+				"meta.function-call.ruby support.module",
+				"meta.function-call.ruby entity.name.type",
+				"meta.function-call.ruby entity.name.type.ruby",
+				"meta.function-call.ruby entity.name",
+				"meta.function-call.ruby entity.name.ruby",
+				"entity.name.type.class.ruby",
+				"entity.name.type.module.ruby",
+				"entity.name.namespace.ruby",
+				"entity.other.inherited-class.ruby",
+				"meta.class.ruby",
+				"meta.module.ruby",
+				"support.class.ruby",
+				"support.module.ruby",
+				"entity.name.type.ruby",
+				"entity.name.ruby"
+			],
+			"settings": { "foreground": "#E1B574" }
+		},
+		{
+			"name": "Ruby punctuation",
+			"scope": [
+				"punctuation.separator.namespace.ruby",
+				"punctuation.separator.inheritance.ruby",
+				"punctuation.separator.method.ruby",
+				"punctuation.separator.constant.ruby"
+			],
+			"settings": { "foreground": "#E1B574" }
+		},
+		{
+			"name": "Parameters and local variables",
+			"scope": [
+				"variable.parameter",
+				"variable",
+				"variable.other.local",
+				"variable.other.readwrite.local.ruby",
+				"meta.function.parameters.ruby variable.other.readwrite.local.ruby",
+				"meta.block.ruby variable.other.readwrite.local.ruby"
+			],
+			"settings": {
+				"foreground": "#e080b0",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Included module/class names (not italic)",
+			"scope": [
+				"entity.name.class",
+				"entity.name.type.class",
+				"entity.other.inherited-class",
+				"support.class",
+				"support.module",
+				"entity.name.namespace",
+				"entity.name.type.module"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Function and block parameters",
+			"scope": [
+				"variable.parameter.block",
+				"variable.parameter.block.ruby",
+				"variable.parameter.function",
+				"variable.parameter.function.ruby", 
+				"meta.block variable.other.readwrite.local",
+				"variable.other.readwrite.local",
+				"meta.block variable.parameter",
+				"meta.block variable.parameter.ruby",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#e080b0",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Local variables (all variants)",
+			"scope": [
+				"variable.other.local",
+				"variable.other.readwrite.local",
+				"variable.other.readwrite.local.ruby",
+				"variable.other.local.ruby",
+				"variable.other"
+			],
+			"settings": {
+				"foreground": "#e080b0",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Instance/class/global variables (not italic)",
+			"scope": [
+				"variable.other.readwrite.instance",
+				"variable.other.readwrite.instance.ruby",
+				"variable.other.readwrite.class",
+				"variable.other.readwrite.class.ruby",
+				"variable.other.readwrite.global",
+				"variable.other.readwrite.global.ruby"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		}
+	],
+	"semanticTokenColors": {
+		"parameter": {
+			"foreground": "#e080b0",
+			"fontStyle": "italic"
+		},
+		"variable": {
+			"foreground": "#e080b0"
+		},
+		"variable.local": {
+			"foreground": "#e080b0",
+			"fontStyle": "italic"
+		},
+		"variable.readonly.local": {
+			"foreground": "#e080b0",
+			"fontStyle": "italic"
+		}
+	}
+}

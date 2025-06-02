@@ -1,0 +1,21 @@
+{
+  "name": "r12i-theme",
+  "displayName": "r12i-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "R12i",
+        "uiTheme": "vs-dark",
+        "path": "./themes/R12i-color-theme.json"
+      }
+    ]
+  }
+}
