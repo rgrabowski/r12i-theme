@@ -2,6 +2,7 @@
   "name": "r12i-theme",
   "displayName": "r12i-theme",
   "description": "",
+  "publisher": "rgrabowski",
   "repository": {
     "type": "git",
     "url": "https://github.com/rgrabowski/r12i-theme.git"
