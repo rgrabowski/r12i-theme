@@ -7,9 +7,9 @@
     "type": "git",
     "url": "https://github.com/rgrabowski/r12i-theme.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.96.0"
   },
   "categories": [
     "Themes"
