@@ -103,9 +103,11 @@
 				"meta.function-call.ruby support.function",
 				"meta.function-call.ruby support.function.ruby",
 				"meta.function-call.ruby support.function.call",
-				"meta.function-call.ruby support.function.call.ruby"
+				"meta.function-call.ruby support.function.call.ruby",
+				"entity.name.function.ruby",
+				"entity.name.method.ruby"
 			],
-			"settings": { "foreground": "#7FB7E8" }
+			"settings": { "foreground": "#E8E8E2" }
 		},
 		{
 			"scope": ["entity.name.type", "support.type"],
